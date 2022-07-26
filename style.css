@@ -7,6 +7,10 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+h1 {
+  text-align: center;
+}
+
 #upload {
   width: 75%;
   margin: auto;
