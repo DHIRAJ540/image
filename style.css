@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+#upload {
+  width: 75%;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border: 2px solid rgb(209, 209, 209);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+#img {
+  width: 0%;
+  height: 100%;
+  visibility: hidden;
+  cursor: pointer;
+}
+
+label {
+  /* background: green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.svg {
+  width: 50px;
+  margin-right: 1rem;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
